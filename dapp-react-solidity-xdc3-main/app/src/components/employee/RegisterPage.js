@@ -45,7 +45,6 @@ export default function Register() {
         email,
         wallet,
       });
-      console.log("hiighji");
       console.log(response.data);
       history.push("/login");
     } catch (error) {

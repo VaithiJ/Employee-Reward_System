@@ -260,9 +260,7 @@ function RealDash(connect) {
               task.status === "Waiting For Approval"
           )
         );
-        // console.log("vantiyaa da ",specifictask)
-
-        // console.log("vanthuraa maplaae",filteredDeadlines)
+   
         setTasks(
           response.data.tasks.filter(
             (tasks) =>

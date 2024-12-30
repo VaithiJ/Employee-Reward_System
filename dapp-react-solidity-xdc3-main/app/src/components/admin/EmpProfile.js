@@ -251,8 +251,6 @@ const ProfilePage = (props) => {
       });
   }, [employeeId]);
   const onboarded = employee.isOnboarded;
-  console.log("vanthura", onboarded);
-  // console.log("heyy",employee)
   return (
     <div className="topp" style={{ height: "auto" }}>
       <header

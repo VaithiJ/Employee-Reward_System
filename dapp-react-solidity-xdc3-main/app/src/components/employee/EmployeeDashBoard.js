@@ -252,7 +252,6 @@ console.log("rowwwww",Alltasks)
   const status = tasks.status;
   const onboarded = employees && employees[0] && employees[0].isOnboarded;
 
-  console.log("vanakam", onboarded);
 
   const data = [
     { name: 'pending',value:pendingTasks },

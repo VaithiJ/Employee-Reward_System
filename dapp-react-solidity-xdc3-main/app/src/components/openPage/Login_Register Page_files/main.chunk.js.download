@@ -2354,7 +2354,6 @@ const ProfilePage = props => {
     const respo = await axios__WEBPACK_IMPORTED_MODULE_6__["default"].get("".concat(API_URL, "/onboard/").concat(employeeId), {
       withCredentials: true
     });
-    console.log("asasdasdasdasdsaasdasssssssssssss", respo);
   }; // const handleLogout = () => {
   //   removeCookie('access_token');
   // };

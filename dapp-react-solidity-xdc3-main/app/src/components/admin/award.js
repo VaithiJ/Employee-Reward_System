@@ -202,13 +202,11 @@ const handleSelectChange = (event) => {
   if (selectedAward) {
     const pp = selectedAward.tokens
     setTokens(selectedAward.tokens);
-    console.log("evlo tokens paa",pp )
   } else {
     setTokens("");
   }
 };
-console.log("irukiyaa mamaae", award)
-console.log("superr", tokens)
+
 
   return (
     <div className="modal-container"  >
