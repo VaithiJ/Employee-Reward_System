@@ -1,0 +1,118 @@
+.gpt3__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    color: #ffffff;
+    background-color: linear-gradient(to left, #996515 , #B8860B, #D4AF37,#FFCC00);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .gpt3__navbar-links_container p:hover,
+  .gpt3__navbar-sign button:hover {
+    background-color: #16fc89;
+    color: #ffffff;
+  }
+  
+  .gpt3__navbar-links_container p {
+    margin-right: 2.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gpt3__navbar-links_container p:hover {
+    transform: translateY(-5px);
+  }
+  
+  .gpt3__navbar-sign button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gpt3__navbar-sign button:hover {
+    transform: translateY(-5px);
+  }
+  
+  .gpt3__navbar-menu {
+    display: none;
+  }
+  
+  .gpt3__navbar-menu svg:hover {
+    color: #16fc3c;
+  }
+  
+  .gpt3__navbar-menu_container {
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+    background-color: #333333;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gpt3__navbar-menu_container.slide-in-top {
+    transform: scale(1);
+  }
+  
+  .gpt3__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .gpt3__navbar-links_logo {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .gpt3__navbar-links_logo img {
+    height: 50px;
+  }
+  
+  .gpt3__navbar-links_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .gpt3__navbar-links_container p {
+    margin-right: 2.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gpt3__navbar-sign button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gpt3__navbar-sign button:hover {
+    transform: translateY(-5px);
+  }
+  

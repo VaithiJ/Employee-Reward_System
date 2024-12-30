@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: -20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1350px;
+    z-index: 999;
+    opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.4s ease-in-out, transform 0.7s ease-in-out;
+  }
+  
+
+  .nav-container.visible {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  
+
+  .visible {
+    transform: translateY(0);
+  }
+  
+  .hidden {
+    transform: translateY(-100%);
+  }
+  
+  .logo {
+    margin-right: 2rem;
+  }
+  
+  .logo a {
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .logo-image {
+width: 120px;  }
+  
+  .sub-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+    color: #000000;
+    position: relative;
+  }
+  .balbut{
+    padding: 10;
+    height: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: #1E4B57;
+    font-size: 18px;
+    position: relative;
+    top: -15px;
+    left: -18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+  }
+  
+  .sub-nav a {
+    margin: 0 1.8rem;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+  }
+  
+  .sub-nav a:hover {
+    color: #e72626;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Background color of the search bar */
+    border-radius: 20px; /* Border radius for the search bar */
+    padding: 0.5rem;
+    margin-left: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for the search bar */
+  }
+  
+  .search-bar input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .search-bar button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  .right-icons a {
+    margin-left: 1.5rem;
+    color: #000000;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+
+
+  .wishPic{
+    border: 1px solid lightgray;
+    max-height: 100px;
+    width: 80px;
+    border-radius: 20px;
+  }
+
+
+  .wishList{
+    display: flex;
+    position: relative;
+    padding-top: -20px;
+  }
+
+
+  .wishText{
+    position: relative;
+    margin-left: 120px;
+    top: -100px;
+    left: 50px;
+    color: #1f7c96;
+    font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+
+  }
+
+  .wishText:hover{
+    position: relative;
+    margin-left: 120px;
+    top: -100px;
+    color: #ff0000;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+
+  }
+
+
+  .wishPrice{
+
+    position: relative;
+    top: 30px;
+    left:50px;
+    margin-left: -55px;
+    color: rgb(54, 54, 54)
+
+
+  }
+
+.wishTrash{
+    position: relative;
+    top: 30px;
+    left:50px;
+    margin-left: 50px;
+}
+.logButton {
+  font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+position: relative;
+top: 25px;
+left: 0px;
+margin: 0 0px;
+  padding: 10px 20px;
+  color: #333333;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.logButton:hover {
+  animation: colorChange 0.5s infinite alternate;
+}
+
+.logButton.selected {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.buyss{
+  font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+
+}
+
+.wishButton {
+    font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+position: relative;
+top: -0px;
+left: 0px;
+margin: 0 0px;
+    padding: 10px 20px;
+    color: #333333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .wishButton:hover {
+    animation: colorChange 0.5s infinite alternate;
+}
+
+.wishButton.selected {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+@keyframes colorChange {
+    from {
+      background-color: #000000;
+    }
+    to {
+      background-color: #ff0000;
+    }
+  }
+  
+
+
+  .wishpopup {
+    border-radius: 10px;
+    position: fixed;
+    top: 100%; /* Initially set to bottom of the screen */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: white;
+    box-shadow: 3px 0px 9px 3px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 500px;
+    margin-top: 270px;
+    margin-left: 420px;
+    animation-name: fade-in;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+  }
+  .logpopup {
+    border-radius: 30px;
+    position: fixed;
+    top: 100%; /* Initially set to bottom of the screen */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: white;
+    box-shadow: 3px 0px 9px 3px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 150px;
+    margin-top: 90px;
+    margin-left: 400px;
+    animation-name: fade-in;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      top: 100%;
+    }
+    to {
+      top: 50%;
+    }
+  }
+  
+  .wishpopup.hidden {
+    animation-name: fade-out;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-out {
+    from {
+      top: 100%;
+    }
+    to {
+      top: 100%;
+    }
+  }
+  
+  

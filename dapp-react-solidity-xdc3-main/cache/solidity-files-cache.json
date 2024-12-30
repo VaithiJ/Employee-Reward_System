@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\reactt\\dapp-react-solidity-xdc3-main\\dapp-react-solidity-xdc3-main\\contracts\\ERSC\\erc.sol": {
+      "lastModificationDate": 1683032684391,
+      "contentHash": "4ac936a577c0e1be0f1d3c222c9a2e64",
+      "sourceName": "contracts/ERSC/erc.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC"
+      ]
+    }
+  }
+}

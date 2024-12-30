@@ -1,0 +1,16 @@
+.header {
+    animation: bg-color 2s ease infinite;
+  }
+  
+  @keyframes bg-color {
+    0% {
+      background-color: #ff7f50;
+    }
+    50% {
+      background-color: #6495ed;
+    }
+    100% {
+      background-color: #ff7f50;
+    }
+  }
+  

@@ -1,0 +1,219 @@
+/* Overall Styles */
+
+. {
+    box-sizing: border-box;
+    }
+    body {
+    margin: 0;
+    }
+    
+    /* Navbar Styles */
+    
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    }
+    
+    .navbar ul {
+    display: flex;
+    list-style: none;
+    }
+    
+    .navbar li {
+    margin-right: 20px;
+    }
+    
+    .navbar li:last-child {
+    margin-right: 0;
+    }
+    
+    .navbar a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    /* Main Styles */
+    
+    .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    .summary {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+    }
+    
+    .summary-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    }
+    
+    .summary-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    }
+    
+    .projects {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+    }
+    
+    .project-list-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    
+    .project-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    .project-list-item:hover {
+    background-color: #f0f0f0;
+    }
+    
+    .project-name,
+    .project-deadline,
+    .project-status,
+    .project-tasks {
+    width: 25%;
+    }
+    
+    .tasks {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+    }
+    
+    .task-list-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #080707;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    
+    .task-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    .task-list-item:hover {
+    background-color: #f0f0f0;
+    }
+    
+    .task-project,
+    .task-name,
+    .task-assigned-to,
+    .task-due-date,
+    .task-progress {
+    width: 20%;
+    }
+    
+    /* Inline Styles */
+    
+    .summary-card p {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    
+    .project-status {
+    text-transform: capitalize;
+    }
+    
+    
+    .task-list-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f7f7f7;
+        font-weight: bold;
+        font-size: 1.1rem;
+        }
+        
+        .task-list-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        border-bottom: 1px solid #e3e3e3;
+        }
+        
+        .task-list-item:hover {
+        background-color: #f7f7f7;
+        cursor: pointer;
+        }
+        
+        .task-list-item:nth-child(even) {
+        background-color: #f7f7f7;
+        }
+        
+        .task-project, .task-name, .task-assigned-to, .task-due-date, .task-progress {
+        width: 20%;
+        text-align: center;
+        }
+        
+        /* Responsive design for smaller screens */
+        
+        @media (max-width: 768px) {
+        .navbar {
+        flex-direction: column;
+        align-items: center;
+        }
+        .navbar ul {
+            margin-top: 1rem;
+        }
+        
+        .summary {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        
+        .summary-card {
+            flex-basis: 50%;
+        }
+        
+        .project-list-header {
+            display: none;
+        }
+        
+        .task-project, .task-name, .task-assigned-to, .task-due-date, .task-progress {
+            width: 30%;
+            text-align: left;
+        }
+        
+    }       
+     

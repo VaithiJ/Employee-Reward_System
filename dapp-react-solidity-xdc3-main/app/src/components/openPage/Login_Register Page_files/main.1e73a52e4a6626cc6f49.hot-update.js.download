@@ -1,0 +1,209 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return App; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_employee_LoginPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/employee/LoginPage */ "./src/components/employee/LoginPage.js");
+/* harmony import */ var _components_employee_RegisterPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/employee/RegisterPage */ "./src/components/employee/RegisterPage.js");
+/* harmony import */ var _components_pages_ForgetPasswordPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/pages/ForgetPasswordPage */ "./src/components/pages/ForgetPasswordPage.js");
+/* harmony import */ var _components_employee_EmployeeDashBoard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/employee/EmployeeDashBoard */ "./src/components/employee/EmployeeDashBoard.js");
+/* harmony import */ var _components_employee_UserProfile__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/employee/UserProfile */ "./src/components/employee/UserProfile.js");
+/* harmony import */ var _components_admin_AddEmployee__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/admin/AddEmployee */ "./src/components/admin/AddEmployee.js");
+/* harmony import */ var _components_openPage_AboutPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/openPage/AboutPage */ "./src/components/openPage/AboutPage.jsx");
+/* harmony import */ var _components_openPage_Openpage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/openPage/Openpage */ "./src/components/openPage/Openpage.jsx");
+/* harmony import */ var _components_admin_RegisterPageComp__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/admin/RegisterPageComp */ "./src/components/admin/RegisterPageComp.js");
+/* harmony import */ var _components_admin_LoginPage__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/admin/LoginPage */ "./src/components/admin/LoginPage.js");
+/* harmony import */ var _components_admin_AdminDashBoard__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/admin/AdminDashBoard */ "./src/components/admin/AdminDashBoard.js");
+/* harmony import */ var _components_admin_RealDash_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/admin/RealDash.js */ "./src/components/admin/RealDash.js");
+/* harmony import */ var _components_admin_AddTask__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/admin/AddTask */ "./src/components/admin/AddTask.js");
+/* harmony import */ var _components_admin_EmpProfile__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/admin/EmpProfile */ "./src/components/admin/EmpProfile.js");
+/* harmony import */ var _components_employee_EmployeeTaskView__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/employee/EmployeeTaskView */ "./src/components/employee/EmployeeTaskView.js");
+/* harmony import */ var _components_admin_Approvetasks__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/admin/Approvetasks */ "./src/components/admin/Approvetasks.js");
+/* harmony import */ var _components_admin_assigntasks__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/admin/assigntasks */ "./src/components/admin/assigntasks.js");
+var _jsxFileName = "D:\\ers\\Employee-rewards-system\\Employee-redemption-and-rewards-system\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function App() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/",
+    component: _components_openPage_Openpage__WEBPACK_IMPORTED_MODULE_9__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/about",
+    component: _components_openPage_AboutPage__WEBPACK_IMPORTED_MODULE_8__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/login",
+    component: _components_employee_LoginPage__WEBPACK_IMPORTED_MODULE_2__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/register",
+    component: _components_employee_RegisterPage__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/registercompany",
+    component: _components_admin_RegisterPageComp__WEBPACK_IMPORTED_MODULE_10__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/forget-password",
+    component: _components_pages_ForgetPasswordPage__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/employeetokens",
+    component: _components_employee_EmployeeDashBoard__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/userprofile",
+    component: _components_employee_UserProfile__WEBPACK_IMPORTED_MODULE_6__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/logincomp",
+    component: _components_admin_LoginPage__WEBPACK_IMPORTED_MODULE_11__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/admindash",
+    component: _components_admin_AdminDashBoard__WEBPACK_IMPORTED_MODULE_12__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/employeehome",
+    component: _components_employee_EmployeeDashBoard__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/empprofile/:_id",
+    component: _components_admin_EmpProfile__WEBPACK_IMPORTED_MODULE_15__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/real",
+    component: _components_admin_RealDash_js__WEBPACK_IMPORTED_MODULE_13__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/adde/:_id/:name/:address/:mobile/:email/:wallet",
+    component: _components_admin_AddEmployee__WEBPACK_IMPORTED_MODULE_7__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/emptask",
+    component: _components_employee_EmployeeTaskView__WEBPACK_IMPORTED_MODULE_16__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/assignedTasks",
+    component: _components_admin_Approvetasks__WEBPACK_IMPORTED_MODULE_17__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }))));
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=main.1e73a52e4a6626cc6f49.hot-update.js.map

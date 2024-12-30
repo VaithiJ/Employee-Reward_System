@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    flex-basis: 30%;
+    margin-right: 1rem;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+
+
+.fonty{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+}
+
+@media screen and (max-width: 768px){
+  p > b {
+    display: none;
+  }
+  .fah{
+margin-left: -500px !important;
+margin-top: -120px !important;
+  }
+  .go::after {
+    font-family: "Secular One";
+    content: "Employee Register";
+    margin-left: -100px !important;
+  }
+
+  .empp{
+    display: none;
+  }
+  .empreg{
+    margin-left: -200px !important;
+  }
+  .ftn{
+    margin-left: -20px !important;
+  }
+  .ftnn::after {
+    font-family: "Secular One";
+    content: "Employee Login";
+    margin-left: -120px !important;
+  }
+  .loginclass{
+display: none;  }
+.formemp{
+  width: 700px !important;
+  margin-top: -30px !important;
+margin-left: -100px !important;}
+  }

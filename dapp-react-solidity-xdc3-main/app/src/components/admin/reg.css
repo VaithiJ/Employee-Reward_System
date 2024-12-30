@@ -1,0 +1,908 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 190px;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .cmplg{
+    width: 600px;
+    height: 600px;
+    margin-top: 300px;
+  margin-left: -570px;
+  animation: bounce 3s infinite;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .awardd{
+  
+  animation: bounce 3s infinite;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: transparent;
+  }
+   */
+  /* .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@media screen and (max-width : 768px){
+  .headerrr{
+    margin: auto;
+  }
+  .container   .main{
+display: none;  }
+.containerrr{
+max-width: 30%;
+}
+.sec::after{
+  
+    font-family: "Secular One";
+    content: "Company Login";
+    margin-left: -100px !important;
+  }
+
+  .cmplg{
+    display: none;
+  }
+.cmplgg{
+  margin-left: 80px !important;
+}
+.task-list-container{
+  max-width: 500px;
+  margin-left: -8100px
+}
+ .task-due-date{
+  display: none;
+ }
+ .task-name{
+  display:none;
+ }
+ .task-assigned-to{
+  display:none;
+ }
+ .task-list-container{
+  margin-left:-00px;
+ }
+ .task-list{
+  margin-left: 00px;
+ }
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    flex-basis: 30%;
+    margin-right: 1rem;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+
+
+.fonty{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+} */
+/* .col-md-6 form-group{
+  position: relative;
+  bottom: 100%;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  max-width: 190px;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.cmplg {
+  width: 600px;
+  height: 600px;
+  margin-top: 300px;
+  margin-left: -570px;
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.awardd {
+
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(100, 100, 100);
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: transparent;
+  /* margin-top:-10px */
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: rgb(150, 150, 200);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@media screen and (max-width : 768px) {
+  .headerrr {
+    margin: auto;
+  }
+
+  .container .main {
+    display: none;
+  }
+
+  .containerrr {
+    max-width: 30%;
+  }
+
+  .sec::after {
+
+    font-family: "Secular One";
+    content: "Company Login";
+    margin-left: -100px !important;
+  }
+
+  .cmplg {
+    display: none;
+  }
+
+  .cmplgg {
+    margin-left: 80px !important;
+  }
+
+  .task-list-container {
+    max-width: 500px;
+    margin-left: -8100px
+  }
+
+  .task-due-date {
+    display: none;
+  }
+
+  .task-name {
+    display: none;
+  }
+
+  .task-assigned-to {
+    display: none;
+  }
+
+  .task-list-container {
+    margin-left: -00px;
+  }
+
+  .task-list {
+    margin-left: 00px;
+  }
+}
+
+
+.formm1-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.formm1-label {
+  flex-basis: 30%;
+  margin-right: 1rem;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+
+
+.fonty {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+}
+
+/* .col-md-6 form-group{
+  position: relative;
+  bottom: 100%;
+} */
+
+.formm1 {
+  background-color: #fff;
+  display: block;
+  padding: 1rem;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  margin: 80px auto;
+}
+
+.formm1-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+  /* Update font family */
+}
+
+.input-container22 {
+  margin-bottom: 1rem;
+  position: relative;
+  top: 45px;
+}
+
+.input-container22 input {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  color: #000;
+  font-family: Arial, sans-serif;
+  /* Update font family */
+  font-weight: bold;
+  border: 1px solid rgba(0, 99, 152, 0.984);
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+  box-shadow: rgba(10, 102, 194, 0.847) 0px 0px 0px 0.847193px;
+  font-size: 18px;
+  line-height: 23.9999px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  height: 52px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border-color: rgba(0, 99, 152, 0.984);
+  transition-duration: 0.334s;
+  transition-property: border-color, box-shadow, -webkit-box-shadow;
+  width: 100%;
+  outline: rgba(0, 0, 0, 0.9) none 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.input-container22 input::placeholder {
+  color: #6B7280;
+  opacity: 1;
+  font-family: Arial, sans-serif;
+  position: relative;
+  bottom: 2px;
+  /* Update font family */
+  /* font-weight: bold; */
+
+}
+
+.input-container22 a {
+  font-family: Arial, sans-serif;
+  /* Update font family */
+  /* font-weight: bold; */
+  text-decoration: none;
+  color: #6B7280;
+}
+
+.input-container22 a:hover {
+  text-decoration: underline;
+}
+
+.input-container23 {
+  margin-bottom: 1rem;
+  position: relative;
+  top: 10px;
+}
+
+.input-container23 input {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  color: #000;
+  font-family: Arial, sans-serif;
+  /* Update font family */
+  font-weight: bold;
+  border: 1px solid rgba(0, 99, 152, 0.984);
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+  box-shadow: rgba(10, 102, 194, 0.847) 0px 0px 0px 0.847193px;
+  font-size: 18px;
+  line-height: 23.9999px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  height: 52px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border-color: rgba(0, 99, 152, 0.984);
+  transition-duration: 0.334s;
+  transition-property: border-color, box-shadow, -webkit-box-shadow;
+  width: 100%;
+  outline: rgba(0, 0, 0, 0.9) none 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.input-container23 input::placeholder {
+  color: #6B7280;
+  opacity: 1;
+  font-family: Arial, sans-serif;
+  position: relative;
+  bottom: 2px
+    /* Update font family */
+    /* font-weight: bold; */
+
+}
+
+.input-container23 a {
+  font-family: Arial, sans-serif;
+  /* Update font family */
+  /* font-weight: bold; */
+  text-decoration: none;
+  color: #6B7280;
+}
+
+.input-container23 a:hover {
+  text-decoration: underline;
+}
+
+.submit1 {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 90%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  border: 0px none rgb(255, 255, 255);
+  background-color: rgb(0, 65, 130);
+  padding: 0px 24px;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background: rgb(0, 65, 130) none repeat scroll 0% 0% / auto padding-box border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  height: 52px;
+  line-height: 1rem;
+  overflow: hidden;
+  outline-width: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  transition-duration: 0.167s;
+  transition-property: background-color, box-shadow, color, -webkit-box-shadow;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  vertical-align: top;
+  z-index: 0;
+  border-radius: 28px;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  position: relative;
+  left: 14px;
+  top: 7px;
+  /* line-height: 1rem; Decrease the line height to move the text up */
+  padding-top: 0.5rem;
+  /* Adjust the top padding as needed */
+  margin-top: -0.5rem;
+}
+
+
+.signup-link {
+  display: inline-block;
+  color: rgb(10, 102, 194);
+  text-decoration: underline solid rgb(10, 102, 194);
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px none rgb(10, 102, 194);
+  box-sizing: border-box;
+  outline: rgb(10, 102, 194) none 0px;
+  margin: 0px;
+  padding: 5px;
+  font-size: 16px;
+  vertical-align: baseline;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+.ff {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.password-toggle-icon-container {
+  position: relative;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle-icon {
+  font-size: 25px;
+  position: relative;
+  bottom: 45px;
+  left: 150px;
+  z-index: 1;
+}
+
+.right-label {
+  position: relative;
+  right: 50px;
+}
+
+.style-0 {
+  box-sizing: border-box;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  color: rgba(0, 0, 0, 0.9);
+  outline: rgba(0, 0, 0, 0.9) none 0px;
+  margin: 0px;
+  padding: 0px 0px 4px;
+  border: 0px none rgba(0, 0, 0, 0.9);
+  vertical-align: baseline;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+/* .style-0 {
+  box-sizing: border-box;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  outline: rgba(0, 0, 0, 0.9) none 0px;
+  margin: 0px;
+  padding: 0px 0px 4px;
+  border: 0px none rgba(0, 0, 0, 0.9);
+  vertical-align: baseline;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+} */
+
+.style-0122 {
+  border: 1px solid rgba(0, 99, 152, 0.984);
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+  box-shadow: rgba(10, 102, 194, 0.847) 0px 0px 0px 0.847193px;
+  font-size: 18px;
+  line-height: 23.9999px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  height: 52px;
+  padding: 28px 12px 6px;
+  border-radius: 4px;
+  border-color: rgba(0, 99, 152, 0.984);
+  transition-duration: 0.334s;
+  transition-property: border-color, box-shadow, -webkit-box-shadow;
+  width: 100%;
+  outline: rgba(0, 0, 0, 0.9) none 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.head {
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  top:15px;
+  right:46px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px none rgba(0, 0, 0, 0.9);
+  vertical-align: baseline;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.form221 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.0) inset;
+}
+.title22 {
+  font-size: 28px;
+  color: royalblue;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  right:60px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title22::before,
+.title22::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: royalblue;
+}
+
+.title22::before {
+  width: 18px;
+  height: 18px;
+  background-color: royalblue;
+}
+
+.title22::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+.message{
+  position: relative;
+  right: 60px;
+}
+.message,
+.signin222 {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+
+.signin222 {
+  text-align: center;
+}
+
+.signin222 a {
+  color: royalblue;
+}
+
+.signin222 a:hover {
+  text-decoration: underline royalblue;
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form label .input:valid + span {
+  color: green;
+}
+
+.submit00000 {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+  width: 90%;
+}
+
+.submit00000:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/* Add the following CSS to change the alignment of the input boxes */
+
+.form221 .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form221 .form-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form221 .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+  outline: none;
+}
+
+
+.form221 .form-group:last-child input {
+  padding-right: 40px;
+}
+
+
+.form221 .form-group:last-child input[type="password"] {
+  padding-right: 40px;
+}
+
+.form221 .form-group:last-child svg {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.form221 label {
+  position: relative;
+}
+
+.form221 label .input {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.form221 label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form221 label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form221 label .input:focus + span,
+.form221 label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form221 label .input:valid + span {
+  color: green;
+}
+.form221 .form-group.yess {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form221 .form-group.yess .input {
+  width: 91%;
+  padding: 10px;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+  outline: none;
+  position: relative;
+  left:33px;
+  height: 47px;
+}
+
+.form221 .form-group.yess .input:last-child {
+  padding-right: 40px;
+}
+
+.form221 .form-group.yess svg {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+.form221 input::placeholder {
+  color: grey;
+  font-size: 0.9em;
+}
+
+.form221 input:focus::placeholder,
+.form221 input:valid::placeholder {
+  font-size: 0.7em;
+  font-weight: 600;
+  position: relative;
+  top: 10px;
+  left:5px
+}
+
+

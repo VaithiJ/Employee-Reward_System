@@ -1,0 +1,52 @@
+.company-profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  .company-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .company-info-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-info-container img {
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .company-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .add-employee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-employee-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .add-employee-container input {
+    font-size: 16px;
+    padding: 10px;
+  }  
+
+

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+
+.pie-chart-container {
+    animation: rotate 10s linear infinite;
+}
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  @media screen and (max-width : 768px){
+    /* .row{
+      margin: auto;
+      max-width: 600px;
+    } */
+    .col-md-9{
+      width:90%;
+      margin-left: 50px;
+    }
+    .col-md-11{
+      width: 90%;
+      margin-left: -100px;
+    }
+    .col-md-4{
+      
+      margin-left: 450px;
+      
+
+    }
+    .rowww{
+      max-width: 500px;
+      margin-left:-100px;
+     
+    }
+    .del{
+      margin: auto;
+      margin-left: 200px;
+    }
+    .buy{
+      margin: auto;
+      margin-left: -1000px;
+    }
+  .piee {
+    display: none;
+  }
+   .pie{
+    display: none;
+   }
+
+   .roww{
+    width: 90%;
+    margin-top: 400px;
+    margin-left: 0px;
+   }
+
+   .col-md-8{
+    margin-top: 400px;
+   }
+   .cardd{
+    
+   margin-left: 280px;
+   max-width: 40%;
+   overflow: auto;
+   }
+  .col-md-3{
+width: auto; 
+margin-left: -200px;
+
+}
+  .col-md-5{
+    display: none;
+  }
+
+  .card{
+    max-width: 500px;
+   margin-left: -130px; 
+   display: inline;
+  }
+  
+  .card1{
+   display: inline;
+   }
+
+   .butad{
+    margin-left: 0px;
+   }
+   .walad{
+    margin-top: 20px;
+   }
+
+   .Add-list{
+    display: inline;
+max-width: 90%;
+margin-left: -400px;
+ }
+ .sidejs{
+margin-left: 650px;
+}
+
+
+  }
+
+.element.style {
+  }
+  .bg-gradient-success {
+      background: #28a745 linear-gradient(180deg,#48b461,#28a745) repeat-x!important;
+      color: #fff;
+  }
+  .card {
+      box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+      margin-bottom: 1rem;
+  }
+  .card {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+
+
+
+
+.calender-employee{
+  width: 845px;
+  margin-left: -400px;
+  height:590px;
+  left: 1220px;
+  bottom: 470px;
+  /* background-color: white; */
+}  
+.date{
+  background-color: #6610f2;
+}
+
+.current-date {
+  background-color: goldenrod;
+}
+.mark{
+  background-color: #1310d8;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+.marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  bottom: 45px;
+  left:20px
+}
+
+.my-calendar .react-calendar__tile {
+margin-bottom: 20px;
+  color: rgb(13, 20, 14);
+}
+.my-calendar .react-calendar__navigation {
+  background-color: rgb(20, 13, 13);
+  color:black;
+  height: 60px;
+}
+.my-calendar .react-calendar__navigation__label:hover {
+  background-color: transparent !important;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  bottom: 14px;
+}
+.modal-container {
+  position: relative;
+}
+.card222 {
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  position: absolute;
+  right: 840px;
+  top: 100px;
+
+}
+.card222:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card222:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.btn-donate {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-within,:active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}

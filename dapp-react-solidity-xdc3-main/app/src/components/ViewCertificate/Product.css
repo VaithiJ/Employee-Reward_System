@@ -1,0 +1,425 @@
+.table-containeerr {
+  width: 55%;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+
+.tableerr {
+  width: 94%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border: none;
+}
+
+.tableerr th {
+  background-color: #000000;
+  font-weight: bold;
+  color: white;
+  padding: 8px;
+}
+
+.tableerr thead {
+  background-color: black;
+}
+
+.tableerr td {
+  padding: 8px;
+  text-align: left;
+  color: #000000;
+  border-bottom: 1px solid #020202;
+}
+
+.tableerr tr:last-child td {
+  border-bottom: none;
+}
+
+
+.question-cell {
+  width: 50%;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.answer-cell {
+  width: 60%;
+  padding: 8px;
+  background-color: #f8f8f8;
+  text-align: right;
+}
+
+.question-tag {
+  color: #537fe7;
+  margin-right: 10px;
+  font-family: sans-serif;
+}
+
+.answer-text {
+  color: #000000;
+  font-family: "Segoe UI";
+}
+
+.Edit-btn {
+  font-size: 17px;
+  padding: 0.5em 1em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  /* background: dodgerblue; */
+  background: rgba(93, 68, 167, 1);
+
+  color: white;
+  border-radius: 4px;
+}
+
+.Edit-btn:hover {
+  background: rgb(2, 0, 36);
+  color: white;
+  /* background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  background: rgb(174, 0, 255);
+}
+
+.Edit-btn:active {
+  transform: translate(0em, 0.2em);
+}
+
+@media only screen and (max-width: 768px) {
+  .table-container {
+    max-width: 100%;
+    padding: 40px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+.Asset {
+  padding-left: 50px;
+  margin: 0;
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.container {
+  top: 50%;
+  left: 50%;
+  max-height: 600px;
+  overflow-y: scroll;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+table {
+  margin-bottom: 70px;
+  width: 250px;
+  height: 150px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.titleh {
+  text-align: left;
+  position: relative;
+  z-index: -1;
+  font-size: 36px;
+  padding-left: 100px;
+  font-weight: bold;
+}
+
+.titleh::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 2px;
+  background-color: #dddddd;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.Assettable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-table100 {
+  width: 100%;
+  overflow: auto;
+}
+
+.wrap-table100 {
+  width: 100%;
+  display: table;
+}
+
+.table100 {
+  width: 100%;
+  display: table;
+}
+
+.table100-head th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  background-color: #f2f2f2;
+  padding: 15px 20px;
+}
+
+.column1,
+.column2,
+.column3,
+.column4,
+.column5,
+.column6 {
+  text-align: left;
+  padding: 15px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .table100-head th {
+    font-size: 14px;
+  }
+  .column1,
+  .column2,
+  .column3,
+  .column4,
+  .column5,
+  .column6 {
+    padding: 10px;
+  }
+}
+
+.bbn {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftalign {
+  display: flex;
+  justify-content: left;
+  max-width: 40%;
+}
+
+.add-product {
+  font-size: 15px;
+  padding: 0.5em 1em;
+  align-items: center;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: rgba(93, 68, 167, 1);
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  left: 320px;
+  /* width: 130px; */
+  margin-top: 120px;
+  height: 45px;
+  font-family: "Secular One";
+  width: 200px;
+}
+
+.add-product:hover {
+  color: white;
+  background: rgb(174, 0, 255);
+}
+
+.add-product:active {
+  transform: translate(0em, 0.2em);
+}
+
+.pro1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.pro2 {
+  display: flex;
+  width: 400px;
+  text-align: center;
+  height: 300px;
+position: relative;
+  left: 400px;
+  font-family: "Josefin Sans";
+
+  background-color: rgb(255, 255, 255);
+  padding-top: 40px;
+  padding-left: 95px;
+  font-size: 22px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.pro3 {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 80px;
+  width: 29%;
+  height: 300px;
+  margin-left: 60px;
+  /* margin-top: px; */
+
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+  border-radius: 20px;
+  /* position: fixed; */
+  /* background-image: url(./image\ \(1\).jpg); */
+}
+
+@media (max-width: 767px) {
+  .pro2 {
+    display: none;
+  }
+  .add-product {
+    margin-left: 180px;
+    margin-top: -20px;
+    /* width: 500px; */
+  }
+  .table-containeerr {
+    margin-top: 60px;
+    margin-left: -200px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+
+.search__container {
+  /* width: 200px; */
+  max-width: 300px;
+  padding-top: 64px;
+  margin-left: 1000px;
+  margin-top: -120px;
+}
+
+.search__title {
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  color: #ff8b88;
+}
+
+.search__input {
+  width: 80%;
+  padding: 12px 24px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background-color: transparent;
+  /* background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.search__input::placeholder {
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.search__input:hover,
+.search__input:focus {
+  padding: 12px 0;
+  outline: none;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
+  background-position: 100% center;
+}
+
+.pagination-container1 {
+  padding-left: 400px;
+  margin-top: -60px;
+  /* margin-bottom: 500px; */
+  /* display: flex;
+  margin: auto; */
+}
+
+.pagination-button1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  background-color: rgba(13, 13, 13, 0.3);
+  padding: 0.2em 0.6em;
+  /* border-style: dashed; */
+  cursor: pointer;
+  border-radius: 0.25em;
+  border-width: 2px;
+  border-color: rgba(13, 13, 13, 0.75);
+  transition: 0.2s ease;
+  margin-left: -180px;
+  background-color: rgba(95, 125, 223, 0.295);
+}
+
+.pagination-button1:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0d0d0d;
+  border-color: #0d0d0d;
+}
+
+.pagination-button2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  background-color: rgba(13, 13, 13, 0.3);
+  padding: 0.2em 0.6em;
+  /* border-style: dashed; */
+  cursor: pointer;
+  /* margin-bottom: 200px; */
+  border-radius: 0.25em;
+  border-width: 2px;
+  border-color: rgba(13, 13, 13, 0.75);
+  transition: 0.2s ease;
+  background-color: rgba(95, 125, 223, 0.295);
+}
+
+.pagination-button2:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0d0d0d;
+  border-color: #0d0d0d;
+}
+.pagetext1 {
+  color: #000000;
+  margin: 10px;
+}
+
+.head2 {
+  /* position: relative; */
+  /* bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); */
+  font-family: "Axiforma";
+  opacity: 60%;
+  /* background: transparent;
+  font-size: small;
+  display: flex;
+  justify-content: center; */
+}
+
+.foot-prod {
+  position: absolute; /* position the footer absolutely within the content area */
+  bottom: 0; /* align the footer to the bottom of the content area */
+  width: 100%; /* set the width of the footer to 100% */
+  height: 20px; /* set the height of the footer as required */
+  background-color: transparent; /* add your desired background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
